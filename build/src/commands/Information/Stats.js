@@ -75,13 +75,13 @@ export default class Stats extends OrasCommand {
                                     name: `Stats`,
                                     iconURL: this.client.user.displayAvatarURL(),
                                 })
-                                    .setDescription(`The __Team Stats__ Page of the AKSHAY`)
+                                    .setDescription(`The __Team Stats__ Page of Bot`)
                                     .addFields([
                                     {
                                         name: `<:users:1206844431572017163> __Team Information__`,
-                                        value: `> <a:developer_bot:1191706873615880273> **Developer**: [**AKSHAY**](https://discord.com/users/1191577120288297000)
+                                        value: `> <a:developer_bot:1191706873615880273> **Developer**: [**Supreme**](https://discord.com/users/1131953433134497923)
                                         > <:codev:1206836807858257930> **Co-Developer**: [**Radhe**](https://discord.com/users/1146450017327009903) | [**Akshay**](https://discord.com/users/1191577120288297000)
-                                        > <:owner:1191577120288297000> **Owners**: [**AKSHAY**](https://discord.com/users/1131953433134497923) | [**Radhe**](https://discord.com/users/1146450017327009903)`,
+                                        > <:owner:1191577120288297000> **Owners**: [**Supreme**](https://discord.com/users/1131953433134497923) | [**Radhe**](https://discord.com/users/1146450017327009903)`,
                                     },
                                     
                                 ])
@@ -127,7 +127,7 @@ export default class Stats extends OrasCommand {
                                     name: `Stats`,
                                     iconURL: this.client.user.displayAvatarURL(),
                                 })
-                                .setDescription(`The __System Stats__ Page of the Trixo`)
+                                .setDescription(`The __System Stats__ Page of the Bot`)
                                     .addFields([
                                     {
                                         name: `<:info:1206834266407833681> __System Information__`,
