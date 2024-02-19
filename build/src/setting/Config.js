@@ -18,7 +18,7 @@ export default class OrasConfig extends Object {
         super();
         this.token =
             "" || process.env['token'];
-        this.prefix = ".";
+        this.prefix = "+";
         this.nodes = [
             {
                 name: `Oras`,
@@ -28,7 +28,7 @@ export default class OrasConfig extends Object {
             },
         ];
         this.voteApi =
-            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjkwNDMxNzE0MTg2NjY0NzU5MiIsImJvdCI6dHJ1ZSwiaWF0IjoxNjczNTI3OTYzfQ.WwA0KXh_nAQcBmR7BPqgLGyElYZheTQmguQfA2F6aNc";
+            "";
         this.webhooks = {
             guildCreate: "https://discord.com/api/webhooks/1206509224796880906/ac0KbKQv5FmoUaLVijQmKRO_mUtb0Dg8hLwFyeGuBePlhc6rB-i5l2Rj87xV8Z1VUBHR",
             guildDelete: "https://discord.com/api/webhooks/1206509224796880906/ac0KbKQv5FmoUaLVijQmKRO_mUtb0Dg8hLwFyeGuBePlhc6rB-i5l2Rj87xV8Z1VUBHR",
@@ -40,7 +40,7 @@ export default class OrasConfig extends Object {
         this.spotiSecret = "9fd6d604c0f343b4a998839f43ef88c7";
         this.owners = ["1131953433134497923"];
         this.color = "#089be4";
-        this.supportId = "";
+        this.supportId = "1183922582366457856";
         this.spotiNodes = [
             {
                 id: `Oras`,
